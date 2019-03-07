@@ -48,7 +48,9 @@ gem "mini_magick", "~> 4.8"
 
 gem "paperclip", "~> 6.0.0"
 
-gem 'aws-sdk', '< 2.0'
+# gem 'aws-sdk', '< 2.0'
+
+gem 'aws-sdk-s3', '~> 1.0.0.rc2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
