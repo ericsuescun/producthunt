@@ -48,7 +48,7 @@ gem "mini_magick", "~> 4.8"
 
 gem "paperclip", "~> 6.0.0"
 
-# gem 'aws-sdk', '< 2.0'
+gem 'aws-sdk', '< 2.0'
 
 gem 'aws-sdk-s3', '~> 1.0.0.rc2'
 
