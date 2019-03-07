@@ -46,6 +46,6 @@ before_action :private_access, except: [:index, :show]
 
 	private
 		def product_params
-			params.require(:product).permit(:name, :url, :description)
+			params.require(:product).permit(:name, :url, :description, :image)
 		end
 end

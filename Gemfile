@@ -42,6 +42,14 @@ gem 'annotate'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+gem "image_processing", "~> 1.2"
+
+gem "mini_magick", "~> 4.8"
+
+gem "paperclip", "~> 6.0.0"
+
+gem 'aws-sdk', '~> 2.3'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
